@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   A blog on software, systems-level issues, and security.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: @ropportunist
+twitter_username: ropportunist
 github_username:  rhmoult
 
 # Build settings
