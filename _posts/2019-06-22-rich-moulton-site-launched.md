@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rich Moulton, Principle Software Engineer, Launches Site"
+title: "Rich Moulton, Principal Software Engineer, Launches Site"
 date: 2019-06-22
 ---
 
