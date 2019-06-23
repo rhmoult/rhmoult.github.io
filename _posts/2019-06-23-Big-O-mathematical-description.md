@@ -6,7 +6,7 @@ date: 2019-06-23
 
 I was watching a mathematical description of [Big O, Big Omega, and Big Theta](https://www.youtube.com/watch?v=ei-A_wy5Yxw&inden=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN) yesterday that described these concepts pretty well.  
 
-[Big O] is a term used to describe the worst-case performance of an algorithm, or sequence of steps taken to accomplish some goal. [Big Omega] describes the best-case performance of an algorithm. [Big Theta] can be used to describe the bounds of performance of an algorithm when the best-case and worst-case are more or less the same.
+*Big O* is a term used to describe the worst-case performance of an algorithm, or sequence of steps taken to accomplish some goal. *Big Omega* describes the best-case performance of an algorithm. *Big Theta* can be used to describe the bounds of performance of an algorithm when the best-case and worst-case are more or less the same.
 
 For example, imagine you have code that evaluates each item of input and compares it against each of the n items of input.  Now, we perform this action four times to improve accuracy.  This code can be represented so far by the formula 4n^2.  Now, we'll say there is a code section that follows that takes 16 cycles for each of the n inputs.  The code is now represented as 4n^2 + 16n.  Finally, there is a little section at the end that prints a report that runs in 2 cycles regardless of the size of input.  The formaula representing this code is now [4n^2 + 16x + 2].
 
