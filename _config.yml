@@ -1,4 +1,4 @@
 name: Rich Moulton, Principle Software Engineer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-remote_theme: benbalter/retlab
+theme: minima
