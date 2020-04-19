@@ -1,0 +1,74 @@
+---
+title: İletişim
+layout: default
+bodyClass: page-contact
+---
+
+<div class="intro intro-small">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>İletişim</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8">
+      <ul>
+        <li><strong>Tel: </strong>{{ site.data.contact.phone }}</li>
+        <li><strong>Email: </strong><a href="mailto:{{ site.data.contact.email }}">
+            {{ site.data.contact.email }}</a></li>
+        {% if site.data.contact.address %}
+        <li><strong>Adres: </strong>{{ site.data.contact.address }}</li>
+        {% endif %}
+      </ul>
+      <h4 class="mt-4">İş saatlerimiz</h4>
+      <table class="table table-sm opening-hours-table">
+        <tr>
+          <td class="day font-weight-bold">Pazartesi</td>
+          <td class="opens">0830</td>
+          <td>-</td>
+          <td class="closes">1700</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">Salı</td>
+          <td class="opens">0830</td>
+          <td>-</td>
+          <td class="closes">1700</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">Çarşamba</td>
+          <td class="opens">0830</td>
+          <td>-</td>
+          <td class="closes">1700</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">Perşembe</td>
+          <td class="opens">0830</td>
+          <td>-</td>
+          <td class="closes">1700</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">Cuma</td>
+          <td class="opens">0830</td>
+          <td>-</td>
+          <td class="closes">1700</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">Cumartesi</td>
+          <td class="opens">Kapalı</td>
+          <td></td>
+          <td class="closes"></td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">Pazar</td>
+          <td class="opens">Kapalı</td>
+          <td> </td>
+          <td class="closes"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
